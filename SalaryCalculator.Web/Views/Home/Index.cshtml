@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="mt-5 mb-4">
+    <div class="text-center">
+        <h3>Smart Salary Calculator</h3>
+    </div>
+    <hr />
+    <div class="row fw-lighter">
+        <span>Step 1 : Select your file.</span>
+        <span>Step 2 : Click upload to generate salary slips.</span>
+    </div>
+</div>
+
+<form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="DownloadSalaryList">
+    <div class="input-group mb-2">
+        <input type="file" class="form-control" name="file">
+    </div>
+    <div class="d-grid gap-2">
+        <button type="submit" class="btn btn-outline-primary">Upload and Generate Salary Slips</button>
+    </div>
+
+</form>
+
+@if (TempData["messageError"] != null)
+{
+    <div class="alert alert-danger mt-2" role="alert">
+        @TempData["messageError"]
+    </div>
+}

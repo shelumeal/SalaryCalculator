@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
+  &lt;Assembly Path="/Users/chamith/.nuget/packages/csvhelper/27.2.1/lib/net6.0/CsvHelper.dll" /&gt;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=94140e58_002D2329_002D4faa_002D8bf1_002Dde3694f06280/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="For_Given_Salary_Tax_Is_Correct" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::02439066-8BA8-40BE-A3CE-B907F6B6A169::net6.0::SalaryCalculator.Tests.SalaryCalculatorTests.For_Given_Salary_Tax_Is_Correct&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::02439066-8BA8-40BE-A3CE-B907F6B6A169::net6.0::SalaryCalculator.Tests.SalaryCalculatorTests.Given_Data_Has_A_Invalid_Month&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::02439066-8BA8-40BE-A3CE-B907F6B6A169::net6.0::SalaryCalculator.Tests.SalaryCalculatorTests.Given_Data_Has_A_Invalid_Super_Rate&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

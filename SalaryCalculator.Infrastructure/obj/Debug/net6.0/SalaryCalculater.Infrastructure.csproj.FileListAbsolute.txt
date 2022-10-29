@@ -1,0 +1,5 @@
+/Users/chamith/SalaryCalculater/SalaryCalculater.Infrastructure/obj/Debug/net6.0/SalaryCalculater.Infrastructure.csproj.AssemblyReference.cache
+/Users/chamith/SalaryCalculater/SalaryCalculater.Infrastructure/obj/Debug/net6.0/SalaryCalculater.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chamith/SalaryCalculater/SalaryCalculater.Infrastructure/obj/Debug/net6.0/SalaryCalculater.Infrastructure.AssemblyInfoInputs.cache
+/Users/chamith/SalaryCalculater/SalaryCalculater.Infrastructure/obj/Debug/net6.0/SalaryCalculater.Infrastructure.AssemblyInfo.cs
+/Users/chamith/SalaryCalculater/SalaryCalculater.Infrastructure/obj/Debug/net6.0/SalaryCalculater.Infrastructure.csproj.CoreCompileInputs.cache

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JH8h56f54ObnyKlabJ4JCpeFqbMu7PWRXVqCJTG1uuzcfj7VdHIkbi/84Pedn+Dxs0w+KeP8BpimHvi/WnnB2w==",
+  "success": true,
+  "projectFilePath": "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Application/SalaryCalculator.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/shelumiel/.nuget/packages/fluentvalidation/11.2.2/fluentvalidation.11.2.2.nupkg.sha512",
+    "/Users/shelumiel/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0-rc.2.22472.3/microsoft.extensions.dependencyinjection.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "/Users/shelumiel/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0-rc.2.22472.3/microsoft.extensions.dependencyinjection.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512"
+  ],
+  "logs": []
+}
