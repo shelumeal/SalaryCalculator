@@ -28,13 +28,21 @@ public class HomeController : Controller
 
         if (file != null)
         {
-            var stream = OpenAndCopy(file);
-            var result = this.exportService.ExportSalaryData(stream);
-            if (result.Errors.Count > 0)
+            try
             {
-                this._logger.LogWarning(string.Join(",", result.Errors));
+                var stream = OpenAndCopy(file);
+                var result = this.exportService.ExportSalaryData(stream);
+                if (result.Errors.Count > 0)
+                {
+                    TempData["messageError"] = $"An Error has occured : {result.Errors}";
+                    this._logger.LogWarning(string.Join(",", result.Errors));
+                }
+                return this.File(result.StreamToExport, "text/csv", $"{DateTime.Now.ToLongDateString()}_salary_slip.csv");
             }
-            return this.File(result.StreamToExport, "text/csv", $"{DateTime.Now.ToLongDateString()}_salary_slip.csv");
+            catch (Exception ex)
+            {
+                TempData["messageError"] = $"An Error has occured : {ex.Message}";
+            }  
         }
         else
         {

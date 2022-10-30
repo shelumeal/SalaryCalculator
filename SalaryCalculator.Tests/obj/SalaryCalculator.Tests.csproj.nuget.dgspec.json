@@ -155,6 +155,9 @@
               },
               "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Infrastructure/SalaryCalculator.Infrastructure.csproj": {
                 "projectPath": "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Infrastructure/SalaryCalculator.Infrastructure.csproj"
+              },
+              "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Web/SalaryCalculator.Web.csproj": {
+                "projectPath": "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Web/SalaryCalculator.Web.csproj"
               }
             }
           }
@@ -201,6 +204,68 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Web/SalaryCalculator.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Web/SalaryCalculator.Web.csproj",
+        "projectName": "SalaryCalculator.Web",
+        "projectPath": "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Web/SalaryCalculator.Web.csproj",
+        "packagesPath": "/Users/shelumiel/.nuget/packages/",
+        "outputPath": "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/shelumiel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Application/SalaryCalculator.Application.csproj": {
+                "projectPath": "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Application/SalaryCalculator.Application.csproj"
+              },
+              "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Infrastructure/SalaryCalculator.Infrastructure.csproj": {
+                "projectPath": "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Infrastructure/SalaryCalculator.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

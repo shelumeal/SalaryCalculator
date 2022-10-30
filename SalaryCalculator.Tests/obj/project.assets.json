@@ -1001,6 +1001,23 @@
         "runtime": {
           "bin/placeholder/SalaryCalculator.Infrastructure.dll": {}
         }
+      },
+      "SalaryCalculator.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SalaryCalculator.Application": "1.0.0",
+          "SalaryCalculator.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SalaryCalculator.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SalaryCalculator.Web.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -4151,6 +4168,11 @@
       "type": "project",
       "path": "../SalaryCalculator.Infrastructure/SalaryCalculator.Infrastructure.csproj",
       "msbuildProject": "../SalaryCalculator.Infrastructure/SalaryCalculator.Infrastructure.csproj"
+    },
+    "SalaryCalculator.Web/1.0.0": {
+      "type": "project",
+      "path": "../SalaryCalculator.Web/SalaryCalculator.Web.csproj",
+      "msbuildProject": "../SalaryCalculator.Web/SalaryCalculator.Web.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4161,6 +4183,7 @@
       "NUnit3TestAdapter >= 4.0.0",
       "SalaryCalculator.Application >= 1.0.0",
       "SalaryCalculator.Infrastructure >= 1.0.0",
+      "SalaryCalculator.Web >= 1.0.0",
       "coverlet.collector >= 3.1.0"
     ]
   },
@@ -4194,6 +4217,9 @@
             },
             "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Infrastructure/SalaryCalculator.Infrastructure.csproj": {
               "projectPath": "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Infrastructure/SalaryCalculator.Infrastructure.csproj"
+            },
+            "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Web/SalaryCalculator.Web.csproj": {
+              "projectPath": "/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Web/SalaryCalculator.Web.csproj"
             }
           }
         }

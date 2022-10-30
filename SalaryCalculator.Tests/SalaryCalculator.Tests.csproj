@@ -18,6 +18,7 @@
     <ItemGroup>
       <ProjectReference Include="..\SalaryCalculator.Application\SalaryCalculator.Application.csproj" />
       <ProjectReference Include="..\SalaryCalculator.Infrastructure\SalaryCalculator.Infrastructure.csproj" />
+      <ProjectReference Include="..\SalaryCalculator.Web\SalaryCalculator.Web.csproj" />
     </ItemGroup>
 
 </Project>
