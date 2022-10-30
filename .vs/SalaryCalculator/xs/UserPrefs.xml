@@ -1,10 +1,7 @@
 ﻿<Properties StartupConfiguration="{4EF27E4C-5F0C-40E7-9370-32B7446C7287}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.SalaryCalculator.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SalaryCalculator.Web/Views/Home/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SalaryCalculator.Tests/SalaryCalculatorTests.cs">
     <Files>
-      <File FileName="SalaryCalculator.Web/Views/Home/Index.cshtml" Line="15" Column="1" />
+      <File FileName="SalaryCalculator.Web/Views/Home/Index.cshtml" Line="7" Column="32" />
       <File FileName="SalaryCalculator.Web/Views/Shared/_Layout.cshtml" Line="6" Column="1" />
       <File FileName="SalaryCalculator.Web/Program.cs" Line="31" Column="11" />
       <File FileName="SalaryCalculator.Web/Controllers/HomeController.cs" Line="43" Column="10" />
@@ -28,21 +25,14 @@
       <File FileName="SalaryCalculator.Infrastructure/TaxCalculator/ForthLevelTaxCalculator.cs" Line="1" Column="1" />
       <File FileName="SalaryCalculator.Infrastructure/TaxCalculator/SecondLevelTaxCalculator.cs" Line="1" Column="1" />
       <File FileName="SalaryCalculator.Infrastructure/TaxCalculator/ThirdLevelTaxCalculator.cs" Line="1" Column="1" />
+      <File FileName="SalaryCalculator.Tests/SalaryCalculatorTests.cs" Line="42" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SalaryCalculator" expanded="True">
-            <Node name="SalaryCalculator.Web" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
-                <Node name="Shared" expanded="True" />
-              </Node>
+            <Node name="tests" expanded="True">
+              <Node name="SalaryCalculator.Tests" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
@@ -52,13 +42,27 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="SalaryCalculator" expanded="True" selected="True" />
+          <Node name="SalaryCalculator" expanded="True" selected="True">
+            <Node name="tests" expanded="True">
+              <Node name="SalaryCalculator.Tests" expanded="True">
+                <Node name="SalaryCalculator.Tests" expanded="True">
+                  <Node name="SalaryCalculatorTests" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Tests/SalaryCalculatorTests.cs" relfile="SalaryCalculator.Tests/SalaryCalculatorTests.cs" line="19" column="1" />
+      <Breakpoint file="/Users/shelumiel/Documents/GitHub/SalaryCalculator/SalaryCalculator.Tests/SalaryCalculatorTests.cs" relfile="SalaryCalculator.Tests/SalaryCalculatorTests.cs" line="33" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.SalaryCalculator.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

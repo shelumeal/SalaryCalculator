@@ -22,11 +22,6 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
     public ActionResult DownloadSalaryList(IFormFile? file)
     {
         TempData.Clear();
