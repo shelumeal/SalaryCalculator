@@ -2,7 +2,7 @@
 
 SalaryCalculator
 
-An applciation to generate employee salary slip, built with .Net Core, Asp.Net Mvc
+An application to generate employee salary slip, built with .Net Core, Asp.Net Mvc
 
 ## Tech Stack
 
