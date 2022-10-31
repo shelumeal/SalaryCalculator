@@ -25,6 +25,11 @@ An application to generate employee salary slip, built with .Net Core, Asp.Net M
 
 ## Screen Shot(s)
 
+![App Screenshot](https://github.com/shelumeal/SalaryCalculator/blob/master/Screenshots/Screen%201.png?raw=true)
+
+![App Screenshot](https://github.com/shelumeal/SalaryCalculator/blob/master/Screenshots/Screen%202.png?raw=true)
+
+![App Screenshot](https://github.com/shelumeal/SalaryCalculator/blob/master/Screenshots/Screen%203.png?raw=true)
 
 
 
