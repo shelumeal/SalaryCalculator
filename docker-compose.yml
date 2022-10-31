@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  web_app:
+    build: .
+    container_name: salary_calculator
+    ports:
+      - "8080:80"
